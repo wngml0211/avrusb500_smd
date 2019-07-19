@@ -1,0 +1,17 @@
+\t (00:00:00) pad_designer 16.6 S032 (v16-6-112CK) Windows 32
+\t (00:00:00)     Journal start - Thu Jul 18 13:44:25 2019
+\t (00:00:00)         Host=USER-PC User=user Pid=2300 CPUs=4
+\t (00:00:00) CmdLine= C:\Users\user\Desktop\vscode_orcad\cdns\cdns\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:04) setwindow form.padedit
+\i (00:00:04) pse_open 
+\i (00:00:14) fillin "microusb_mount.pad"
+\i (00:00:23) FORM padedit units Inch 
+\i (00:00:28) fillin no 
+\i (00:00:49) FORM padedit layers  
+\i (00:01:58) pse_open 
+\i (00:02:13) fillin "microusb_mount_elec.pad"
+\i (00:02:21) FORM padedit parameters  
+\i (00:02:25) FORM padedit layers  
+\i (00:04:18) pse_exit
+\t (00:04:18)     Journal end - Thu Jul 18 13:48:43 2019

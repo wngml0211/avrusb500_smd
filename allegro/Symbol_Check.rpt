@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : AVRUSB500.brd                                 )
+(    Software Version : 16.6S034                                      )
+(    Date/Time        : Thu Jul 18 17:21:14 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	c:/Users/user/Desktop/workspace/layout/pcb/symbols
+	C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols
+	C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols
+	C:/USERS/USER/DESKTOP/WORKSPACE/PCD_LIB/psm/
+
+
+All Symbols Found
+
+Total symbols placed:      33 out of 34
+
+
+Symbol Found:  C3	- C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/symbols/cpcyl1d225ls100031.psm
