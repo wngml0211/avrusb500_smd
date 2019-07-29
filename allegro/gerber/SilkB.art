@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  C:/Users/user/Desktop/workspace/avrusb/allegro/AVRUSB500.brd*
+G04 Layout Name:  C:/Users/user/Desktop/workspace/avrusb/allegro/AVRUSB500_0.brd*
 G04 Film Name:    SilkB*
 G04 File Format:  Gerber RS274X*
-G04 File Origin:  Cadence Allegro 16.6-S034*
-G04 Origin Date:  Fri Jul 19 14:13:03 2019*
+G04 File Origin:  Cadence Allegro 17.2-P019*
+G04 Origin Date:  Mon Jul 29 16:05:09 2019*
 G04 *
 G04 Layer:  REF DES/SILKSCREEN_BOTTOM*
 G04 Layer:  PACKAGE GEOMETRY/SILKSCREEN_BOTTOM*

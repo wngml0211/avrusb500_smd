@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : AVRUSB500_0.brd                               )
-(    Software Version : 16.6S034                                      )
-(    Date/Time        : Fri Jul 19 09:42:10 2019                      )
+(    Drawing          : AVRUSB500.brd                                 )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jul 29 11:18:25 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,20 +18,20 @@ Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB\allegro'
-Design Directory:            '.'
-Old design name:             'AVRUSB500_0.brd'
-New design name:             'AVRUSB500_0.brd'
+Design Directory:            'C:/Users/user/Desktop/workspace/avrusb/allegro'
+Old design name:             'C:/Users/user/Desktop/workspace/avrusb/allegro/AVRUSB500.brd'
+New design name:             'C:/Users/user/Desktop/workspace/avrusb/allegro/AVRUSB500.brd'
 
-CmdLine: netrev.exe -y 1 -n -i C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB\allegro C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB\allegro\AVRUSB500_0.brd C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB\allegro\AVRUSB500_0.brd
+CmdLine: netrev.exe -y 1 -i C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB\allegro C:\Users\user\Desktop\workspace\avrusb\allegro\AVRUSB500.brd C:\Users\user\Desktop\workspace\avrusb\allegro\AVRUSB500.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstchip.dat 
-   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstchip.dat (00:00:00.09)
+   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstchip.dat (00:00:00.06)
 Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstxprt.dat 
    Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstxnet.dat 
-   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstxnet.dat (00:00:00.01)
+   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -42,33 +42,33 @@ WARNING(SPMHNI-194): Symbol 'JEDECMS026' used by RefDes U1 for device 'FT232BM_2
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/Users/user/Desktop/workspace/avrusb/pcb/modules 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/Users/user/Desktop/workspace/avrusb/pcb/symbols 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            C:/USERS/USER/DESKTOP/WORKSPACE/PCD_LIB/psm/ 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/Users/user/Desktop/workspace/avrusb/pcb/padstacks 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
-           C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            C:/Users/user/Desktop/workspace/pcd_lib/pad/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jul 19 9:42:10 2019
+netrev run on Jul 29 11:18:25 2019
    DESIGN NAME : 'AVRUSB500'
-   PACKAGING ON Apr 28 2014 16:45:46
+   PACKAGING ON Mar  2 2016 00:37:24
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -91,6 +91,6 @@ netrev run on Jul 19 9:42:10 2019
  No oversight detected
   1 warnings detected
 
-cpu time      0:04:03
-elapsed time  0:00:01
+cpu time      0:00:46
+elapsed time  0:00:00
 

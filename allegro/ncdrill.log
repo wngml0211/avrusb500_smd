@@ -2,9 +2,9 @@
 (                                                                     )
 (    NC DRILL Log                                                     )
 (                                                                     )
-(    Drawing          : AVRUSB500.brd                                 )
-(    Software Version : 16.6S034                                      )
-(    Date/Time        : Fri Jul 19 12:41:13 2019                      )
+(    Drawing          : AVRUSB500_0.brd                               )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jul 29 14:39:44 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -16,7 +16,7 @@
  -------------
 
  FORMAT   		5.5
- MACHINE-OFFSET		x:0.000000	y:0.000000
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
  FEEDRATE		1
  COORDINATES		ABSOLUTE
  OUTPUT-UNITS		METRIC
@@ -43,16 +43,17 @@
 
 
 
-     'AVRUSB500-1-2.drl' created for holes connecting TOP and BOTTOM
-     ---------------------------------------------------------------
+     'AVRUSB500_0-1-2.drl' created for holes connecting TOP and BOTTOM
+     -----------------------------------------------------------------
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.   0.3300    0.0000/  0.0000      PLATED          5
-            2.   0.7869    0.0000/  0.0000      PLATED         56
+            1.   0.3300    0.0000/  0.0000      PLATED          8
+            2.   0.7869    0.0000/  0.0000      PLATED         12
             3.   1.0671    0.0000/  0.0000      PLATED         15
+            4.   3.1750    0.0000/  0.0000  NON_PLATED          4
 
-     ---- Total holes:                                         76
+     ---- Total holes:                                         39
 
-     ---- Total head travel:              4.25 feet (1.30 meters)
+     ---- Total head travel:              1.93 feet (0.59 meters)
 
